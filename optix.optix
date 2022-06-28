@@ -32,5 +32,9 @@ Project:
    Uri: 'urn:FTOptix:EthernetIPDriver'
    Module: FTOptix.EthernetIPDriver
    Version: 5.0
+  9:
+   Uri: 'urn:FTOptix:CommunicationDriver'
+   Module: FTOptix.CommunicationDriver
+   Version: 5.0
  Nodes:
  - File: Nodes/optix.yaml

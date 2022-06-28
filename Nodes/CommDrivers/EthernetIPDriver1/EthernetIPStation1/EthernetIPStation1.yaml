@@ -1,0 +1,50 @@
+Name: EthernetIPStation1
+Id: g=405a4f41f3246f2689e4d2e06573b082
+Type: EthernetIPDriverStation
+Children:
+- Name: MaximumJobSizeInBytes
+  Type: BaseDataVariableType
+  DataType: UInt32
+  Value: 504
+- Name: IPAddress
+  Type: BaseDataVariableType
+  DataType: String
+  Value: ""
+- Name: Port
+  Type: BaseDataVariableType
+  DataType: UInt16
+  Value: 44818
+- Name: Timeout
+  Type: BaseDataVariableType
+  DataType: Duration
+  Value: "0:00:01:0.0000000"
+- Name: PhysicalAddressOptimization
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+- Name: OperationCode
+  Type: BaseDataVariableType
+  DataType: CommunicationOperationCode
+  AccessLevel: Read
+  Value: 0
+- Class: Reference
+  Target: ns=9;i=29
+  Direction: Forward
+- Class: Reference
+  Target: ns=9;i=30
+  Direction: Forward
+- Class: Reference
+  Target: ns=9;i=67
+  Direction: Forward
+- Class: Reference
+  Target: ns=9;i=31
+  Direction: Forward
+- Class: Reference
+  Target: ns=9;i=94
+  Direction: Forward
+- Class: Reference
+  Target: ns=9;i=96
+  Direction: Forward
+- File: Tags/Tags.yaml
+- Name: Types
+  Type: BaseObjectType
