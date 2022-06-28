@@ -23,5 +23,17 @@ Project:
    Uri: 'urn:FTOptix:EthernetIPDriverTagImporter'
    Module: FTOptix.EthernetIPDriverTagImporter
    Version: 4.0
+  7:
+   Uri: 'urn:FTOptix:Core:Net'
+   Module: FTOptix.Core.Net
+   Version: 8.0
+  8:
+   Uri: 'urn:FTOptix:CoreBase:Net'
+   Module: FTOptix.CoreBase.Net
+   Version: 5.0
+  9:
+   Uri: 'urn:FTOptix:NetLogic'
+   Module: FTOptix.NetLogic
+   Version: 6.0
  Nodes:
  - File: DesignTimeNodes/CommDrivers/EthernetIPDriver1/EthernetIPStation1/TagImporter.yaml
